@@ -1,0 +1,24 @@
+name: quan_ly_chi_tieu
+description: Ứng dụng quản lý chi tiêu
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/google-icon.png
+    - assets/icons/facebook-icon.jpg
